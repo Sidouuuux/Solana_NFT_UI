@@ -1,10 +1,10 @@
 /* Customize your main colors in :root variables */
 :root {
   --main-background-color: #ffffff;
-  --card-background-color: #0095c2;
+  --card-background-color: #b90000;
   --card-background-lighter-color: #7a7f92;
   --main-text-color: #fbb800;
-  --title-text-color: #b60000;
+  --title-text-color: #4864ff;
 }
 a {
   font-size: 150%;
