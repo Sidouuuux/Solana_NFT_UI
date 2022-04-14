@@ -1,28 +1,42 @@
 /* Customize your main colors in :root variables */
 :root {
-  --main-background-color: #343A50;
-  --card-background-color: #51576D;
-  --card-background-lighter-color: #7A7F92;
-  --main-text-color:#F7F6F4;
-  --title-text-color:#3CBA8B;
+  --main-background-color: #777a83;
+  --card-background-color: #6d6d6d;
+  --card-background-lighter-color: #7a7f92;
+  --main-text-color: #fbb800;
+  --title-text-color: #3cba8b;
 }
 
-body{
-  background-color:var(--main-background-color);
+@font-face {
+  font-family: PokemonHollow;
+  src: url("font/Pokemon Hollow.ttf");
+}
+
+@font-face {
+  font-family: PokemonSolid;
+  src: url("font/Pokemon Solid.ttf");
+}
+body {
+  background-color: var(--main-background-color);
   /*background: url("img/background.png");
   background-size: cover;*/
 
-  font-family: 'Patrick Hand', cursive;
+  font-family: "PokemonSolid";
   font-size: 1.1em;
 }
-
-h2, p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: PokemonHollow;
+}
+h2,
+p {
   color: var(--main-text-color);
 }
 
-h3{
-font-weight: normal;
+h3 {
+  font-weight: normal;
 }
-
-
-
