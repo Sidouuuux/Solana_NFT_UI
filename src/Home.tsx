@@ -236,15 +236,17 @@ const BorderLinearProgress = styled(LinearProgress)`
 
 const ShimmerTitle = styled.h1`
   margin: 20px auto;
+  font-size : 300%;
+  font-family: PokemonSolid;
   text-transform: uppercase;
   animation: glow 2s ease-in-out infinite alternate;
   color: var(--main-text-color);
   @keyframes glow {
     from {
-      text-shadow: 0 0 20px var(--main-text-color);
+      text-shadow: 0 0 10px var(--main-text-color);
     }
     to {
-      text-shadow: 0 0 30px var(--title-text-color), 0 0 10px var(--title-text-color);
+      text-shadow: 0 0 20px var(--title-text-color), 0 0 500px var(--title-text-color);
     }
   }
 `;

@@ -1,10 +1,13 @@
 /* Customize your main colors in :root variables */
 :root {
-  --main-background-color: #777a83;
-  --card-background-color: #6d6d6d;
+  --main-background-color: #ffffff;
+  --card-background-color: #0095c2;
   --card-background-lighter-color: #7a7f92;
   --main-text-color: #fbb800;
-  --title-text-color: #3cba8b;
+  --title-text-color: #b60000;
+}
+a {
+  font-size: 150%;
 }
 
 @font-face {
@@ -18,6 +21,7 @@
 }
 body {
   background-color: var(--main-background-color);
+  background-image: url("img/bg.png");
   /*background: url("img/background.png");
   background-size: cover;*/
 
