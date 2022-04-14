@@ -658,7 +658,7 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
+                            <LogoAligner><img src="Pokemon_logo.svg" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -667,7 +667,7 @@ const Home = (props: HomeProps) => {
                                 incididunt.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
+                            <LogoAligner><img src="Pokemon_logo.svg" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -676,7 +676,7 @@ const Home = (props: HomeProps) => {
                                 incididunt.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
+                            <LogoAligner><img src="Pokemon_logo.svg" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
